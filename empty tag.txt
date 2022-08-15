@@ -1,0 +1,21 @@
+Empty tag doesn't have any closing tag.For ex, p tag has closing tag. It looks like  <p></p> this. The is a end tag with slash "/" which tells us that is a closing point. But empty tag doesn't have anything. We can write an empty tag <b> some text <br> in this way but we have to write <b>some text</b> in this way. It is a good practice for devolpoper. 
+
+<br>: (line brak)
+    it is an empty tag. The empty tag doesn't hold any type Attributes. It jus a simple tag. It is use for create a new line.
+<b>: (Bold)
+    It is a bold tag which will make your text looking bold. 
+    
+<i>: (Italic tag)
+    It makes your text Italic
+
+<u>: (Under line text)
+    It create a  Under
+
+<big>: (Big text)
+    It makes the text bigger than actual size;
+
+<small>: (Small text)
+    It makes your text smaller than actual size
+
+hr tag:(Horizontal ruler)
+    It is used to display a horizontal ruler, used to separate content.

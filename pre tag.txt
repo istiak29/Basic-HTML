@@ -1,0 +1,4 @@
+<pre>: (Preformatted text)
+    Usally html doesn't count extra tag between word. Even if, we use more than one spaces in our writting the html will count only one spaces. So, there might be a problem if we show our webpage more than one spaces. In that case we can use Preformatted text <pre>some text</pre>
+    
+    <pre>It is Preformatted tag which will count your extra spaces pre_tag</pre>
