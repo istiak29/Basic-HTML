@@ -1,0 +1,128 @@
+Basic Html file Structure:
+<html>
+
+<head>
+</head>
+
+<body>
+</body>
+
+</html>
+
+Every html file starts with the <html> tag and after all of your code is done then you have to close the tag. You have to do all sorts of coding inside the html tag. The html tag has two different parts one is the head part and another one is the body part. Inside the Head tag, you have to mention the details of the web page that you are going to create like, the title and extra information, then you have to close the head tag and start the body tag. Inside the body tag, you do your desired coding. Whatever you want to do, you have to do inside the body tag. Remember the html tag is used for your entire code but the body tag contains the main contents coding like you might add audio, video, photos, etc. After all of your coding, you have to close the body tag and then close the html tag. 
+
+For comments, you have to use a particular tag that is <!--   --> and inside this whatever you want you can write.
+Document type declaration: 
+If you do not mention the document type then you might fall into some trouble because the Document type reveals the version type. In which version you are writing the code it should be mentioned. At present we will use HTML5 which means we are using version 5. For this version, before you write some code you should mention <!DOCTYPE html > but remember this is not a tag. 
+For a website title you have to use <title></title> tag. Inside this tag, we mention the website’s title and you can see it in the address bar of your browser. 
+
+HTML Element:
+When we use a tag completely then we can say the whole tag as an Element. For example, if we use the p tag completely it will look like 
+<p> I am Istiak Islam</p> 
+So, it is a complete p tag and we can say this is an element. So, the element contains the whole parts of a tag. Now we can define a common structure for an element that is, the element will start with the opening tag and it must be finished with the closing tag. Then, inside the open and closing tag there should be some content along with the attributes. The empty element should be closed inside the opening tag like <br/> or <hr/> etc. 
+<html>, <head>, <title> and <body> are the main elements. 
+<html> :
+<head> :
+Inside the head element we can use this element as well
+<title>
+<base>
+<link>
+<meta>
+<script>
+<noscript>
+
+ <title> :
+<body> : 
+We can use alink, background, bgcolor, link, text, vlink this attribute inside the body tag. 
+alink (Active Link): 
+alink is a short form of the active link. By using this attribute we can set the 
+color of a link.   
+Value of alink: 
+	Since, by using the alink attribute we can change the color so the value should be the color. In three different way, we can reveal our color value. First, Color name  eg: green, red, etc. Second, RGB code eg: rgb (0,0,0). Lastly, Hexadecimal eg: #0000FF.  
+Background: To change the background image of a web page we can use this attribute as well. 
+Value of background attribute: For this attribute, we will use an image so the value should be image link whether it will be an absolute link (website link eg: www.w3school.org) or relative link (link of the same directory eg: Istiak_bg.png)
+Method: 
+<body background= “URL of the image”>
+
+Bgcolor: To change the color of a web page we will use this attribute as well. 
+Value of bgcolor attribute: As this is related to the color so the value should be the color and as well as we can use that three different way to invoke color (color name, RGB, Hex)
+Method: 
+	<body bgcolor= “color name”>
+Link: To set a particular color for all of the links we will use the link attribute.
+Value of link attribute:  The value should be the color and we can use that three-way to reveal.
+Method: 
+	<body link= “color name”>
+Text: We can set a specific color for all text throughout the body part by using the text attribute. 
+Value of text attribute: The attribute should be color
+Method: 
+	<body text= “green”>
+
+Vlink: vlink is the short form of visited link. After visiting a link or link we have visited previously those link’s colors can be defined by using this attribute. 
+Value of vlink attribute: color
+Method: 
+	<body vlink= “colorname”
+
+
+
+
+
+
+
+
+
+
+Heading Element:
+There are 6 heading elements. Which are h1, h2, h3, h4, h5, h6. The largest heading tag is h1 <h1>Text area</h1>
+We will use this heading according to your importance. For the main topic or title, we will use h1, and then it will go according to the level of importance.
+Attribute of Heading Element:  
+1.	Align: align is the short form of Alignment. There are several value of this attribute. 
+a.	left: it is also a default value. For this value, your heading text will start from the left side of your web page. 
+<h2 align= “left”> Your Text </h2>
+
+b.	right: For this value, your heading text will start from the right side of your web page. <h3 align= “right”> Your Text </h3>
+
+c.	center: For this value, your heading text will start from the center side of your web page. <h1 align= “center”> Your Text </h1>
+
+d.	justify: For this, your heading text will be equal to both side.
+<h1 align= “center”> Your Text </h1>
+
+
+Attribute of p (paragraph) element:
+1.	left: it is also a default value. For this value, your text will start from the left side of your web page. <p align= “left”> Your Text </p>
+2.	right: For this value, your text will start from the right side of your web page. <p align= “right”> Your Text </p>
+3.	center: For this value, your text will start from the center side of your web page. <p align= “center”> Your Text </p>
+4.	justify: For this, your text will be equal to both side.
+5.	<p align= “justify”> Your Text </p>
+6.	Style: To style a single line element we use the ‘style’ attribute. 
+The syntax of style attribute:
+<p style= “CSS property:Value; CSS property2:Value2” 
+<p style= “color:red; text-align:center; text-transformation:capitalize”>
+(text-transformation:capitalize) it will capitalize all the first letters of a word
+7.	dir: This is a short form of Direction. By default, its value is ltr, which means the text will start from the left and the second one is rtl, which means it will start from the right side of your web page. It is used for Arabic and Urdu language. 
+<p dir= “rtl”> Text area </p>
+Font Element: We will use this element for different text colors, text sizes, and different fonts. 
+Attributes of font element: 
+color: <font color= “red”>
+face: this attribute will use for the different font name. 
+< font face= “calbiri”
+size: it is for text size. <font size= “9”
+
+<abbr> Element: It is a short form of Abbreviation. It is used to express the short form of a word.  
+	Attribute: title
+	Value: text(Full meaning of Abbreviation of Word)
+	Syntax: <abbr title= “Full meaning of Abbreviation of Word”> 	Abbreviation of word </abbr>	 
+	<abbr title= “Moahmamd”>MD</abbr>
+<acronym> Element: It is as like as <abbr> element. Speacilly, It is used for a sentence and <abbr> is for word. 
+	Attribute: title
+	Value: text (Full meaning of acronym)
+	Syntax: <acronym title=  “Full meaning of acronym”> The acronym word </acronym>
+<acronym title= “Hyper Text Markup Language”>HTML</acronym>
+
+<dfn> Element: This is a short form of Definition. For a definition we can use this element. After writing a definition we use <dfn>definition name</dfn>
+Blockquote Element: if we copy a text from anywhere in the internet then we have to use this element. 
+Attribute of blockquote element: cite. Value: URL
+<blockquote cite= “URL of source”> Blockquote Sentence </blockquote>
+<q> Element: It is the short form of Quotation. it is same as <blockquote> but there is a major difference that is <q> element will quote only one line and <blockquote> will quote some line. 
+Attribute of <q> element: cite. Value: URL
+<q cite= “URL of the source”> sentence </q>
+
