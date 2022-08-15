@@ -16,10 +16,10 @@ Document type declaration:
 If you do not mention the document type then you might fall into some trouble because the Document type reveals the version type. In which version you are writing the code it should be mentioned. At present we will use HTML5 which means we are using version 5. For this version, before you write some code you should mention <!DOCTYPE html > but remember this is not a tag. 
 For a website title you have to use <title></title> tag. Inside this tag, we mention the website’s title and you can see it in the address bar of your browser. 
 
-HTML Element:
+##-> HTML Element:
 When we use a tag completely then we can say the whole tag as an Element. For example, if we use the p tag completely it will look like 
-<p> I am Istiak Islam</p> 
-So, it is a complete p tag and we can say this is an element. So, the element contains the whole parts of a tag. Now we can define a common structure for an element that is, the element will start with the opening tag and it must be finished with the closing tag. Then, inside the open and closing tag there should be some content along with the attributes. The empty element should be closed inside the opening tag like <br/> or <hr/> etc. 
+<p>I am Istiak Islam</p> 
+So, it is a complete p tag and we can say this is an element. There are also some other elements. So, the element contains the whole parts of a tag. Now we can define a common structure for an element that is, the element will start with the opening tag and it must be finished with the closing tag. Then, inside the open and closing tag there should be some content along with the attributes. The empty element should be closed inside the opening tag like <br/> or <hr/> etc. 
 <html>, <head>, <title> and <body> are the main elements. 
 <html> :
 <head> :
@@ -71,10 +71,10 @@ Method:
 
 
 
-Heading Element:
+##-> Heading Element:
 There are 6 heading elements. Which are h1, h2, h3, h4, h5, h6. The largest heading tag is h1 <h1>Text area</h1>
 We will use this heading according to your importance. For the main topic or title, we will use h1, and then it will go according to the level of importance.
-Attribute of Heading Element:  
+##-> Attribute of Heading Element:  
 1.	Align: align is the short form of Alignment. There are several value of this attribute. 
 a.	left: it is also a default value. For this value, your heading text will start from the left side of your web page. 
 <h2 align= “left”> Your Text </h2>
@@ -87,7 +87,7 @@ d.	justify: For this, your heading text will be equal to both side.
 <h1 align= “center”> Your Text </h1>
 
 
-Attribute of p (paragraph) element:
+##-> Attribute of p (paragraph) element:
 1.	left: it is also a default value. For this value, your text will start from the left side of your web page. <p align= “left”> Your Text </p>
 2.	right: For this value, your text will start from the right side of your web page. <p align= “right”> Your Text </p>
 3.	center: For this value, your text will start from the center side of your web page. <p align= “center”> Your Text </p>
