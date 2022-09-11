@@ -1,0 +1,4 @@
+## <img> tag:
+  usally it take two attribute "src" which seek the image source and another one is "alt" which need the name of the image, which will help the user to identify the image even if the image doesn't load due to internet or other issue.
+
+Therefore, we need to set the size of the photo because every photo doesn't fix with your web page. So, we can use the "height" and "weidth" attribute. For better look we can use one attribute at a time. We don't know the aspect ratio for the image so if we set both of the attribute we will the image look bit difference. 

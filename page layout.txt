@@ -1,0 +1,18 @@
+Page Layout:
+Using symantic tag for page Layout
+Use right tag:
+1. Header
+2. main
+3. footer
+
+we will devide our body tag into 3 three parst. In the Header tag we will only write the content about the header and the comes the main tag whic will contain all the contant then after the footer tag will reavels the footer infotamtion. 
+
+Header tag:
+    to define the header part of your web page
+
+main tag:
+    contain the all components.
+    we will devide the main tag into three parst:
+        1. Section tag: to make any section in the page
+        2. Article tag: define for a Article
+        3. Aside tag: It define which part will not belong to our web page

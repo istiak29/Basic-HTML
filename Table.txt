@@ -1,0 +1,4 @@
+<caption>  </caption> === is a tag which will express the main theme of the table
+
+<th> </th> tag is use for table row highlight
+    

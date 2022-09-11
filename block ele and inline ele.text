@@ -1,0 +1,13 @@
+div tag is a nonsymentic tag because we cant not identify by seeing this tag what does it do. 
+this tag only contain a block of code. mainlt it contain other tags content.
+
+it is a block of elements 
+which means it takes the whole width of the web page either it is a single word or huge it takes the whole width. 
+
+the oposite of the block elements is inline elements
+
+which take as much width as it need
+
+like span tag
+
+there are lots of inline and block elements tag.

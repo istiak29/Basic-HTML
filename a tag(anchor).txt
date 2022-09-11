@@ -1,0 +1,10 @@
+anchor tag is used for showing the link. It can be absulate  or relative. 
+normal form:
+<a href="the website link(relative) or your local link(absulate)"> website name </a>
+
+
+if we click on the link, the link will opne at the same tab. In that case if we open the in the next tab then we have to add one more attribute call "target"
+
+<a href= "www.google.com target = "_main"> Google</a>
+
+here target= "_main" will work to open the link in the next tab
